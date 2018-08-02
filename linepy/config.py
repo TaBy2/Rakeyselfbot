@@ -27,7 +27,7 @@ class Config(object):
         'LINE_SERVICES': '1459630796'
     }
 
-    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[96]
+    APP_TYPE    = "CHROMEOS\t2.1.4\tCHROMEOS\t10.0.0"
     APP_VER     = '8.0.2'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'Nadya'
@@ -36,5 +36,5 @@ class Config(object):
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        self.APP_NAME = "CHROMEOS\t2.1.4\tCHROMEOS\t10.0.0"
         self.USER_AGENT = 'Line/%s' % self.APP_VER
