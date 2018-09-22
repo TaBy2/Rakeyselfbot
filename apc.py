@@ -190,7 +190,7 @@ def helpmessage():
                     "⇨" + key + "mypict" + "\n" + \
                     "⇨" + key + "mybio" + "\n" + \
                     "⇨" + key + "mycover" + "\n" + \
-                    "⇨self bot http://line.me/ti/p/~nakap1988 ⇦"
+                    "⇨self bot ⇦"
     return helpMessage
 
 def clientBot(op):
